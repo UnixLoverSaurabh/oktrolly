@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/UnixLoverSaurabh/oktrolly/static/css/main.401d60e2.chunk.css",
+    "main.js": "/UnixLoverSaurabh/oktrolly/static/js/main.f3d1fc60.chunk.js",
+    "main.js.map": "/UnixLoverSaurabh/oktrolly/static/js/main.f3d1fc60.chunk.js.map",
+    "runtime-main.js": "/UnixLoverSaurabh/oktrolly/static/js/runtime-main.d23e89de.js",
+    "runtime-main.js.map": "/UnixLoverSaurabh/oktrolly/static/js/runtime-main.d23e89de.js.map",
+    "static/js/2.6fdf313d.chunk.js": "/UnixLoverSaurabh/oktrolly/static/js/2.6fdf313d.chunk.js",
+    "static/js/2.6fdf313d.chunk.js.map": "/UnixLoverSaurabh/oktrolly/static/js/2.6fdf313d.chunk.js.map",
+    "index.html": "/UnixLoverSaurabh/oktrolly/index.html",
+    "precache-manifest.8fa605e38fbc7116bb2db448f8126f54.js": "/UnixLoverSaurabh/oktrolly/precache-manifest.8fa605e38fbc7116bb2db448f8126f54.js",
+    "service-worker.js": "/UnixLoverSaurabh/oktrolly/service-worker.js",
+    "static/css/main.401d60e2.chunk.css.map": "/UnixLoverSaurabh/oktrolly/static/css/main.401d60e2.chunk.css.map",
+    "static/js/2.6fdf313d.chunk.js.LICENSE.txt": "/UnixLoverSaurabh/oktrolly/static/js/2.6fdf313d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d23e89de.js",
+    "static/js/2.6fdf313d.chunk.js",
+    "static/css/main.401d60e2.chunk.css",
+    "static/js/main.f3d1fc60.chunk.js"
+  ]
+}
