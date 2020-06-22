@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/UnixLoverSaurabh/oktrolly/static/css/main.401d60e2.chunk.css",
-    "main.js": "/UnixLoverSaurabh/oktrolly/static/js/main.f3d1fc60.chunk.js",
-    "main.js.map": "/UnixLoverSaurabh/oktrolly/static/js/main.f3d1fc60.chunk.js.map",
-    "runtime-main.js": "/UnixLoverSaurabh/oktrolly/static/js/runtime-main.d23e89de.js",
-    "runtime-main.js.map": "/UnixLoverSaurabh/oktrolly/static/js/runtime-main.d23e89de.js.map",
-    "static/js/2.6fdf313d.chunk.js": "/UnixLoverSaurabh/oktrolly/static/js/2.6fdf313d.chunk.js",
-    "static/js/2.6fdf313d.chunk.js.map": "/UnixLoverSaurabh/oktrolly/static/js/2.6fdf313d.chunk.js.map",
-    "index.html": "/UnixLoverSaurabh/oktrolly/index.html",
-    "precache-manifest.8fa605e38fbc7116bb2db448f8126f54.js": "/UnixLoverSaurabh/oktrolly/precache-manifest.8fa605e38fbc7116bb2db448f8126f54.js",
-    "service-worker.js": "/UnixLoverSaurabh/oktrolly/service-worker.js",
-    "static/css/main.401d60e2.chunk.css.map": "/UnixLoverSaurabh/oktrolly/static/css/main.401d60e2.chunk.css.map",
-    "static/js/2.6fdf313d.chunk.js.LICENSE.txt": "/UnixLoverSaurabh/oktrolly/static/js/2.6fdf313d.chunk.js.LICENSE.txt"
+    "main.css": "/oktrolly/static/css/main.401d60e2.chunk.css",
+    "main.js": "/oktrolly/static/js/main.a9150deb.chunk.js",
+    "main.js.map": "/oktrolly/static/js/main.a9150deb.chunk.js.map",
+    "runtime-main.js": "/oktrolly/static/js/runtime-main.7b9945cb.js",
+    "runtime-main.js.map": "/oktrolly/static/js/runtime-main.7b9945cb.js.map",
+    "static/js/2.6fdf313d.chunk.js": "/oktrolly/static/js/2.6fdf313d.chunk.js",
+    "static/js/2.6fdf313d.chunk.js.map": "/oktrolly/static/js/2.6fdf313d.chunk.js.map",
+    "index.html": "/oktrolly/index.html",
+    "precache-manifest.1ff4fad23a2796fd78d1bdfdb6080fbe.js": "/oktrolly/precache-manifest.1ff4fad23a2796fd78d1bdfdb6080fbe.js",
+    "service-worker.js": "/oktrolly/service-worker.js",
+    "static/css/main.401d60e2.chunk.css.map": "/oktrolly/static/css/main.401d60e2.chunk.css.map",
+    "static/js/2.6fdf313d.chunk.js.LICENSE.txt": "/oktrolly/static/js/2.6fdf313d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d23e89de.js",
+    "static/js/runtime-main.7b9945cb.js",
     "static/js/2.6fdf313d.chunk.js",
     "static/css/main.401d60e2.chunk.css",
-    "static/js/main.f3d1fc60.chunk.js"
+    "static/js/main.a9150deb.chunk.js"
   ]
 }
