@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Aux from '../../hoc/Auxi'
+import Aux from '../../hoc/Auxi/Auxi'
 import SignUp from '../../components/SignUp/SignUp';
 import SignIn from '../../components/SignIn/SignIn';
 
