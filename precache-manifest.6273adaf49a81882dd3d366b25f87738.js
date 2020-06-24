@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28b0bd79ad099db283fee481c04deffd",
+    "revision": "c9b55336a70e79c20e43e811b9ae61af",
     "url": "/oktrolly/index.html"
   },
   {
-    "revision": "19b7205222e91791b259",
+    "revision": "2972e64061bf061a7945",
     "url": "/oktrolly/static/css/main.827c601c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oktrolly/static/js/2.d0549727.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "19b7205222e91791b259",
-    "url": "/oktrolly/static/js/main.44b4b5e1.chunk.js"
+    "revision": "2972e64061bf061a7945",
+    "url": "/oktrolly/static/js/main.f3754909.chunk.js"
   },
   {
     "revision": "70d292052d370acdce32",
