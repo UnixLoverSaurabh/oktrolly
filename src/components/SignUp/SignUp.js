@@ -8,6 +8,7 @@ class SignUp extends Component {
         state = {
                 username: '',
                 password: '',
+                email: '',
                 loading: false
         }
 
@@ -44,13 +45,15 @@ class SignUp extends Component {
                                 <input type="text" placeholder="Username" value={this.state.username} id="username" onChange={(event) => this.setState({
                                         username: event.target.value
                                 })} />
+                                <input type="email" placeholder="email" value={this.state.email} id="email" onChange={(event) => this.setState({
+                                        email: event.target.value
+                                })} />
                                 <input type="password" placeholder="password" value={this.state.password} id="password" onChange={(event) => this.setState({
                                         password: event.target.value
                                 })} />
                                 <input onClick={this.SubmitDataHandler} type="submit" value="Sign Up" />
 
                                 {spin}
-                                <a href="#" class="forgot">forgot password?</a>
                         </div>
 
                 );
