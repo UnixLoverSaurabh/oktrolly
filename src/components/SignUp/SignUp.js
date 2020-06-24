@@ -19,6 +19,7 @@ class SignUp extends Component {
                 
                 const userInfo = {
                         username: this.state.username,
+                        email: this.state.email,
                         password: this.state.password
                 }
                 axios.post('/users.json', userInfo)
