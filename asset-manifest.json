@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/oktrolly/static/css/main.995e2dcc.chunk.css",
-    "main.js": "/oktrolly/static/js/main.adb33554.chunk.js",
-    "main.js.map": "/oktrolly/static/js/main.adb33554.chunk.js.map",
+    "main.css": "/oktrolly/static/css/main.827c601c.chunk.css",
+    "main.js": "/oktrolly/static/js/main.44b4b5e1.chunk.js",
+    "main.js.map": "/oktrolly/static/js/main.44b4b5e1.chunk.js.map",
     "runtime-main.js": "/oktrolly/static/js/runtime-main.7b9945cb.js",
     "runtime-main.js.map": "/oktrolly/static/js/runtime-main.7b9945cb.js.map",
-    "static/js/2.88c7a7e9.chunk.js": "/oktrolly/static/js/2.88c7a7e9.chunk.js",
-    "static/js/2.88c7a7e9.chunk.js.map": "/oktrolly/static/js/2.88c7a7e9.chunk.js.map",
+    "static/js/2.d0549727.chunk.js": "/oktrolly/static/js/2.d0549727.chunk.js",
+    "static/js/2.d0549727.chunk.js.map": "/oktrolly/static/js/2.d0549727.chunk.js.map",
     "index.html": "/oktrolly/index.html",
-    "precache-manifest.d13d1b525a9eeec1176cf942b627d408.js": "/oktrolly/precache-manifest.d13d1b525a9eeec1176cf942b627d408.js",
+    "precache-manifest.fccebb54fcdd268e284fe696340fd8b8.js": "/oktrolly/precache-manifest.fccebb54fcdd268e284fe696340fd8b8.js",
     "service-worker.js": "/oktrolly/service-worker.js",
-    "static/css/main.995e2dcc.chunk.css.map": "/oktrolly/static/css/main.995e2dcc.chunk.css.map",
-    "static/js/2.88c7a7e9.chunk.js.LICENSE.txt": "/oktrolly/static/js/2.88c7a7e9.chunk.js.LICENSE.txt"
+    "static/css/main.827c601c.chunk.css.map": "/oktrolly/static/css/main.827c601c.chunk.css.map",
+    "static/js/2.d0549727.chunk.js.LICENSE.txt": "/oktrolly/static/js/2.d0549727.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7b9945cb.js",
-    "static/js/2.88c7a7e9.chunk.js",
-    "static/css/main.995e2dcc.chunk.css",
-    "static/js/main.adb33554.chunk.js"
+    "static/js/2.d0549727.chunk.js",
+    "static/css/main.827c601c.chunk.css",
+    "static/js/main.44b4b5e1.chunk.js"
   ]
 }
