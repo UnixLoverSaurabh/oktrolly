@@ -1,0 +1,25 @@
+.OrderDetails {
+        width: 100%;
+        margin: auto;
+        height: 250px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+        overflow-y: scroll;
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: thin;  /* Firefox */
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+        .OrderDetails {
+                width: 350px;
+                height: 300px;
+        }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+        .OrderDetails {
+                width: 700px;
+                height: 350px;
+        }
+}
