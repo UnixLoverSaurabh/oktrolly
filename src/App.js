@@ -3,6 +3,7 @@ import './hoc/Layout/Layout'
 import Layout from './hoc/Layout/Layout';
 import { BrowserRouter } from 'react-router-dom';
 import Authentication from './containers/Authentication/Authentication';
+import Orders from './containers/Orders/Orders';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <div>
           <Layout>
             <Authentication />
+            <Orders />
           </Layout>
         </div>
       </BrowserRouter>

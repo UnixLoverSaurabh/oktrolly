@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classes from './SignUp.css';
-import axios from '../../axios-orders.js';
-import Spinner from '../UI/Spinner/Spinner';
+import axios from '../../../../axios-orders.js';
+import Spinner from '../../../UI/Spinner/Spinner';
 
 class SignUp extends Component {
 
