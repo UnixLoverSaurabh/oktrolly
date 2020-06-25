@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/oktrolly/precache-manifest.6273adaf49a81882dd3d366b25f87738.js"
+  "/oktrolly/precache-manifest.c245589b044c9cad25f0a4e1bb79cf08.js"
 );
 
 self.addEventListener('message', (event) => {
