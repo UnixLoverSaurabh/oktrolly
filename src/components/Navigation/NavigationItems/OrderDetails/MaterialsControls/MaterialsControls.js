@@ -15,6 +15,8 @@ const MaterialsControls = (props) => (
                         <MaterialControl key={control.label} label={control.label}
                                 submitQuantity={(e) => {props.submitQuantityFromOrders(e, control.type)}} />
                 ))}
+
+                <button className={classes.OrderButton} disabled={!props.purchasable} >ORDER NOW</button>
         </div>
 );
 
