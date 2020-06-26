@@ -20,7 +20,8 @@ class Orders extends Component {
                         sariya: 0
                 },
                 totalPrice: 0,
-                purchasable: false
+                purchasable: false,
+                purchasing: false
         }
 
         updatePurchaseState (materials) {
@@ -33,7 +34,23 @@ class Orders extends Component {
 
                 this.setState({
                         purchasable: sum > 0
-                })
+                });
+        }
+
+        purchaseHandler = () => {
+                this.setState({
+                        purchasing: true
+                });
+        }
+
+        purchaseCancelHandler = () => {
+                this.setState({
+                        purchasing: false
+                });
+        }
+
+        purchaseContinueHandler = () => {
+               alert('You continue');
         }
 
         quantityHandler = (event, type) => {
@@ -59,12 +76,13 @@ class Orders extends Component {
         render() {
                 return (
                         <Aux>
-                                <Model>
-                                        <OrderSummary materials={this.state.materials}/>
+                                <Model show={this.state.purchasing} modalClosed={this.purchaseCancelHandler} >
+                                        <OrderSummary materials={this.state.materials} price={this.state.totalPrice} purchaseCancelled={this.purchaseCancelHandler} purchaseContinue={this.purchaseContinueHandler} />
                                 </Model>
                                 <OrderDetails materials={this.state.materials} />
                                 <MaterialsControls materialAdded={this.addMaterialHandler} price={this.state.totalPrice}
-                                        submitQuantityFromOrders={this.quantityHandler} purchasable={this.state.purchasable} />
+                                        submitQuantityFromOrders={this.quantityHandler} purchasable={this.state.purchasable} 
+                                        ordered={this.purchaseHandler} />
                         </Aux>
                 )
         }

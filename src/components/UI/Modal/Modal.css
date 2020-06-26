@@ -1,6 +1,7 @@
 .Modal {
         position: fixed;
         z-index: 500;
+        /* Backdrop.css has z-index 100 */
         background-color: white;
         width: 70%;
         border: 1px solid #ccc;
