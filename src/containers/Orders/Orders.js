@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Aux from '../../hoc/Auxi/Auxi';
 import OrderDetails from '../../components/Navigation/NavigationItems/OrderDetails/OrderDetails';
 import MaterialsControls from '../../components/Navigation/NavigationItems/OrderDetails/MaterialsControls/MaterialsControls';
+import Model from '../../components/UI/Modal/Modal';
+import OrderSummary from '../../components/Navigation/NavigationItems/OrderDetails/OrderSummary/OrderSummary';
 
 const MATERIAL_PRICES = {
         cement: 300,
@@ -57,6 +59,9 @@ class Orders extends Component {
         render() {
                 return (
                         <Aux>
+                                <Model>
+                                        <OrderSummary materials={this.state.materials}/>
+                                </Model>
                                 <OrderDetails materials={this.state.materials} />
                                 <MaterialsControls materialAdded={this.addMaterialHandler} price={this.state.totalPrice}
                                         submitQuantityFromOrders={this.quantityHandler} purchasable={this.state.purchasable} />
