@@ -3,6 +3,27 @@ import CheckoutSummary from '../../components/Navigation/NavigationItems/OrderDe
 
 class Checkout extends Component {
 
+        state = {
+                materials: {
+                        cement: 0,
+                        sand: 0,
+                        sariya: 0
+                },
+                totalPrice: 0
+        }
+
+        componentDidMount() {
+                const query = new URLSearchParams(this.props.location.search);
+                const materials = {};
+                for(let param of query.entries()) {
+                        materials[param[0]] = +param[1];        // ['sand', '1']
+                }
+
+                this.setState({
+                        materials: materials
+                });
+        }
+        
         CheckoutSummaryCancelled = () => {
                 this.props.history.goBack();
         }
@@ -15,7 +36,7 @@ class Checkout extends Component {
 
                 return(
                         <div>
-                                <CheckoutSummary CheckoutSummaryCancelled={this.CheckoutSummaryCancelled} CheckoutSummaryContinued={this.CheckoutSummaryContinued} />
+                                <CheckoutSummary materials={this.state.materials} CheckoutSummaryCancelled={this.CheckoutSummaryCancelled} CheckoutSummaryContinued={this.CheckoutSummaryContinued} />
                         </div>
                 );
         };

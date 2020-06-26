@@ -53,8 +53,18 @@ class Orders extends Component {
         }
 
         purchaseContinueHandler = () => {
-                this.props.history.push('/checkout');
-                
+                // this.props.history.push('/checkout');
+
+                const queryParams = [];
+                for(let i in this.state.materials) {
+                        queryParams.push(encodeURIComponent(i) + '=' + encodeURIComponent(this.state.materials[i]));
+                }
+                const queryString = queryParams.join('&');
+                this.props.history.push({
+                        pathname: '/checkout',
+                        search: '?' + queryString
+                });
+
                 // this.setState({
                 //       loading: true  
                 // });
