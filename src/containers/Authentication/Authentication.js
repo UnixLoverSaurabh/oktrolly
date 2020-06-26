@@ -10,8 +10,8 @@ class Authentication extends Component {
                 return(
                         <Aux>
                                 <h1 className={classes.Home}>Ok Trolly</h1>
-                                <Route path="/signin" exact component={SignIn} />
-                                <Route path="/signup" exact component={SignUp} />
+                                <Route path="/auth/signin" exact component={SignIn} />
+                                <Route path="/auth/signup" exact component={SignUp} />
                         </Aux>
                 );
         }

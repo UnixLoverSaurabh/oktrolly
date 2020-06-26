@@ -53,30 +53,32 @@ class Orders extends Component {
         }
 
         purchaseContinueHandler = () => {
-                this.setState({
-                      loading: true  
-                });
+                this.props.history.push('/checkout');
+                
+                // this.setState({
+                //       loading: true  
+                // });
 
-                const order = {
-                        materials: this.state.materials,
-                        price: this.state.totalPrice,
-                        deliveryMethod: 'fastest'
-                };
-                axios.post('/orders.json', order)
-                        .then(response => {
-                                console.log(response);
-                                this.setState({
-                                        loading: false,
-                                        purchasing: false
-                                });
-                        })
-                        .catch(error => {
-                                console.log(error);
-                                this.setState({
-                                        loading: false,
-                                        purchasing: false
-                                });
-                        });
+                // const order = {
+                //         materials: this.state.materials,
+                //         price: this.state.totalPrice,
+                //         deliveryMethod: 'fastest'
+                // };
+                // axios.post('/orders.json', order)
+                //         .then(response => {
+                //                 console.log(response);
+                //                 this.setState({
+                //                         loading: false,
+                //                         purchasing: false
+                //                 });
+                //         })
+                //         .catch(error => {
+                //                 console.log(error);
+                //                 this.setState({
+                //                         loading: false,
+                //                         purchasing: false
+                //                 });
+                //         });
         }
 
         quantityHandler = (event, type) => {
