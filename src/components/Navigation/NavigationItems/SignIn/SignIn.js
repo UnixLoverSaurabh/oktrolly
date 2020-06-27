@@ -11,8 +11,8 @@ const SignIn = (props) => {
 
         return (
                 <div className={classes.login}>
-                        <input type="text" placeholder="Username" id="username"/>
-                        <input type="password" placeholder="password" id="password"/>
+                        <input className={classes.inputText} type="text" placeholder="Username" id="username"/>
+                        <input className={classes.inputPassword} type="password" placeholder="password" id="password"/>
                         <input onClick={Submit} type="submit" value="Sign In"/>
                         <Link className={classes.link} to="/auth/signup">Sign Up</Link>
                         <br/>
