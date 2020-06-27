@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './SignIn.css';
-import NavigationItem from '../NavigationItem/NavigationItem';
 import { Link } from 'react-router-dom';
 
 const SignIn = (props) => {
@@ -16,7 +15,7 @@ const SignIn = (props) => {
                         <input onClick={Submit} type="submit" value="Sign In"/>
                         <Link className={classes.link} to="/auth/signup">Sign Up</Link>
                         <br/>
-                        <a href="#" className={classes.forgot}>forgot password?</a>
+                        <a href="/" className={classes.forgot}>forgot password?</a>
                 </div>
 
         );
