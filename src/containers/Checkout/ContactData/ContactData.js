@@ -37,7 +37,7 @@ class ContactData extends Component {
                                 this.props.history.push('/');
                         })
                         .catch(error => {
-                                console.log(error);
+                                alert('Something went wrong: Check intenet');
                                 this.setState({
                                         loading: false
                                 });

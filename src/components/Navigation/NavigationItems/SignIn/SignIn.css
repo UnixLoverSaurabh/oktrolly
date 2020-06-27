@@ -6,7 +6,7 @@ body { background-image: radial-gradient( farthest-corner, rgba(92,100,111,1) 0%
   background: #eceeee;
   border: 1px solid #42464b;
   border-radius: 6px;
-  height: 257px;
+  height: 300px;
   margin: 20px auto 0;
   width: 298px;
 }
@@ -69,13 +69,11 @@ input[type="checkbox"]:checked {
 input[type="checkbox"]:checked + .toggle { background-position: 0 -16px }
 .forgot {
   color: #7f7f7f;
-  display: inline-block;
-  float: right;
   font: 12px/1 sans-serif;
-  left: -19px;
+  left: 25px;
   position: relative;
   text-decoration: none;
-  top: 5px;
+  top: 15px;
   transition: color .4s;
 }
 .forgot:hover { color: #3b3b3b }
@@ -105,6 +103,13 @@ input[type="submit"] {
   box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
 }
 
+.link {
+  left: 25px;
+  position: relative;
+  text-decoration: none;
+  top: 15px;
+  cursor: pointer;
+}
 .shadow {
   background: #000;
   border-radius: 12px 12px 4px 4px;

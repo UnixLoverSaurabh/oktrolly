@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Aux from '../../hoc/Auxi/Auxi';
-import OrderDetails from '../../components/Navigation/NavigationItems/OrderDetails/OrderDetails';
-import MaterialsControls from '../../components/Navigation/NavigationItems/OrderDetails/MaterialsControls/MaterialsControls';
+import OrderDetails from '../../components/Navigation/NavigationItems/Order/OrderDetails/OrderDetails';
+import MaterialsControls from '../../components/Navigation/NavigationItems/Order/OrderDetails/MaterialsControls/MaterialsControls';
 import Model from '../../components/UI/Modal/Modal';
-import OrderSummary from '../../components/Navigation/NavigationItems/OrderDetails/OrderSummary/OrderSummary';
-import axios from '../../axios-orders';
+import OrderSummary from '../../components/Navigation/NavigationItems/Order/OrderDetails/OrderSummary/OrderSummary';
 import Spinner from '../../components/UI/Spinner/Spinner';
 
 const MATERIAL_PRICES = {

@@ -1,7 +1,7 @@
 import React from 'react';
 import OrderDetails from '../OrderDetails';
 import classes from './CheckoutSummary.css';
-import Button from '../../../../UI/Button/Button';
+import Button from '../../../../../UI/Button/Button';
 
 const CheckoutSummary = (props) => {
         return (
