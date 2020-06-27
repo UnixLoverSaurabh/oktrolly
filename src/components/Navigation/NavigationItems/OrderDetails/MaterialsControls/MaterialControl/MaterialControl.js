@@ -1,8 +1,8 @@
 import React from 'react';
-import NumericInput from 'react-numeric-input';
+import classes from './MaterialControl.css';
 
 const MaterialControl = (props) => (
-        <div>
+        <div className={classes.MaterialControl}>
                 <span>{props.label}</span>
                 <input type="text" pattern="[0-9]*" onInput={props.submitQuantity} placeholder="Quantity"/>
         </div>

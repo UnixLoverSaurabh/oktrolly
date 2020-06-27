@@ -4,10 +4,6 @@ import Button from '../../../../UI/Button/Button';
 
 class OrderSummary extends Component {
 
-        componentDidUpdate() {
-                console.log('[OrderSummery] will update');
-        }
-
         render() {
                 const materialSummary = Object.keys(this.props.materials).map(materialKey => {
                         return (<li key={materialKey}>

@@ -1,0 +1,23 @@
+.MaterialControl {
+        width: 80%;
+        text-align: center;
+        box-shadow: 0 2px 3px #ccc;
+        padding: 5px;
+}
+
+.MaterialControl input {
+        box-shadow: 0 7px 9px rgb(48, 43, 43);
+        margin-bottom: 5px;
+        margin-top: 25px;
+}
+
+@media (min-width: 600px) {
+        .ContactData {
+                width: 500px;
+        }
+        .MaterialControl input {
+                box-shadow: 0 7px 9px rgb(48, 43, 43);
+                margin-bottom: 5px;
+                margin-top: 15px;
+        }
+}

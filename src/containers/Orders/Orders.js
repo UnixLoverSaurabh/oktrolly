@@ -59,36 +59,12 @@ class Orders extends Component {
                 for(let i in this.state.materials) {
                         queryParams.push(encodeURIComponent(i) + '=' + encodeURIComponent(this.state.materials[i]));
                 }
+                queryParams.push('price=' + this.state.totalPrice);
                 const queryString = queryParams.join('&');
                 this.props.history.push({
                         pathname: '/checkout',
                         search: '?' + queryString
                 });
-
-                // this.setState({
-                //       loading: true  
-                // });
-
-                // const order = {
-                //         materials: this.state.materials,
-                //         price: this.state.totalPrice,
-                //         deliveryMethod: 'fastest'
-                // };
-                // axios.post('/orders.json', order)
-                //         .then(response => {
-                //                 console.log(response);
-                //                 this.setState({
-                //                         loading: false,
-                //                         purchasing: false
-                //                 });
-                //         })
-                //         .catch(error => {
-                //                 console.log(error);
-                //                 this.setState({
-                //                         loading: false,
-                //                         purchasing: false
-                //                 });
-                //         });
         }
 
         quantityHandler = (event, type) => {
